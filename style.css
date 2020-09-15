@@ -1,0 +1,178 @@
+* {
+	border: 1px solid red !important;
+}
+@font-face {
+	font-family: 'The Historia Demo';
+	src: url('fonts/thehistoriademo-webfont.woff2') format('woff2'),
+		url('fonts/thehistoriademo-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+body {
+	display: flex;
+	flex-direction: column;
+	/* background-color: #2e1a47; */
+	background: url('https://images.unsplash.com/photo-1524169113253-c6ba17f68498')
+		no-repeat center fixed;
+	background-size: cover;
+	background-position-y: 5em;
+	align-items: center;
+}
+header {
+	height: 5em;
+	background: linear-gradient(to top right, #f54784, #ffe838);
+	width: 100%;
+}
+header h1 {
+	color: linear-gradient(to top, #f54784, #ffe838);
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	height: 1.75em;
+	background-color: rgba(255, 0, 0, 0);
+}
+#dev {
+	justify-content: flex-start;
+	background-color: rgba(255, 0, 0, 0);
+	align-items: flex-end;
+}
+h1 {
+	display: flex;
+	align-items: center;
+	font-family: 'The Historia Demo', sans-serif;
+	font-size: 3em;
+	background: linear-gradient(to top, #f54784, #ffe838);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#burger {
+	padding-right: 1.5%;
+}
+.fa-bars {
+	font-size: 2em;
+	padding-top: 15%;
+	color: red;
+}
+#home {
+	display: none;
+}
+#links {
+	display: none;
+}
+#header-bckg {
+	display: none;
+}
+#about {
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row;
+	align-content: center;
+	justify-content: center;
+	height: 10em;
+	/* background-color: rgba(255, 0, 0, 0.2); */
+	width: 90%;
+}
+#img-div {
+	/* align-self: center; */
+	overflow: hidden;
+	border-radius: 50%;
+	width: 6.75em;
+	height: 6.75em;
+	margin-top: 5%;
+}
+#profile {
+	width: 200px;
+	height: auto;
+	transform: scale(1.75);
+	padding-right: 80px;
+	padding-bottom: 30px;
+}
+#about-info {
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+	align-items: center;
+	justify-content: center;
+}
+#name {
+	align-self: center;
+	font-size: 4em;
+}
+#p-about {
+	height: 50%;
+	width: 100%;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1.35em;
+	color: white;
+	margin-top: 0;
+}
+#skillset {
+	margin-top: 3em;
+	height: 10em;
+	/* background-color: rgba(255, 0, 0, 0.2); */
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+#skillset div {
+	width: 99%;
+	background-color: rgba(0, 0, 0, 0.6);
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 1fr;
+	border-radius: 35%;
+	color: red;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.icons {
+	font-size: 2em;
+	padding-top: 0.25em;
+}
+#skill1 p {
+	margin-top: -20%;
+}
+.bold {
+	font-weight: bolder;
+	font-size: 1em;
+}
+#about-info p {
+	margin-top: 1em;
+}
+/* #skill3 p {
+	margin-top: 1em;
+} */
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 0.9em;
+}
+#projects {
+	height: 11em;
+	width: 80%;
+	/* background-color: rgba(255, 0, 0, 0.2); */
+	margin: 1em 0 1em 0;
+}
+.d-block {
+	margin-top: 3em;
+	height: 12em;
+	width: auto;
+}
+#form {
+	height: 6em;
+	width: 100%;
+}
+footer {
+	height: 2em;
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1024px) {
+}
