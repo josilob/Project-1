@@ -35,7 +35,7 @@
 	<body>
 		<header>
 			<nav>
-				<a href="/html/" id="home">Home</a>
+				<h1 id="devh">&lt; dev-b &gt;</h1>
 				<div id="links">
 					<a href="#"></a>
 					<a href="#"></a>
@@ -44,7 +44,6 @@
 				<div id="burger"><i class="fas fa-bars"></i></div>
 				<img />
 			</nav>
-			<h1 id="devh">&lt; dev-b &gt;</h1>
 		</header>
 		<div id="about">
 			<div id="img-div">
@@ -55,26 +54,28 @@
 				/>
 			</div>
 			<div id="about-info">
-				<h1 id="name">Bojan Josilo</h1>
-				<p id="p-about">Ever-learning, full stack developer.</p>
+				<div><h1 id="name">Bojan Josilo</h1></div>
+				<div id="ever">
+					<p id="p-about">Ever-learning, full stack developer.</p>
+				</div>
 			</div>
 		</div>
 		<div id="skillset">
-			<div id="skill1">
+			<div class="skillDiv">
 				<i class="icons fas fa-file-code"></i><br />
-				<p>
+				<p id="skill1">
 					<span class="bold">Web Design</span><br />Creating front end designs
 					utilizing HTML, CSS & JS
 				</p>
 			</div>
-			<div id="skill2">
+			<div class="skillDiv">
 				<i class="icons fab fa-node"></i>
 				<p>
 					<span class="bold">Back End</span><br />Server-side and database
 					manipulation
 				</p>
 			</div>
-			<div id="skill3">
+			<div class="skillDiv">
 				<i class="icons fas fa-search"></i>
 				<p>
 					<span class="bold">Freelancing</span><br />Sating the thirst for
@@ -172,15 +173,17 @@
 				<input type="submit" class="form-control submit" value="SEND MESSAGE" />
 			</form>
 		</div>
+		<div id="icons-div">
+			<a href="#"> <i class="fab fa-facebook-square"> </i></a>
+			<a href="https://github.com/josilob"
+				><i class="fab fa-github-square"> </i
+			></a>
+			<a href="https://www.linkedin.com/in/josilo/"
+				><i class="fab fa-linkedin"> </i
+			></a>
+		</div>
 		<footer>
-			<div id="icons-div">
-				<i class="fab fa-facebook-square"> </i>
-				<i class="fab fa-github-square"> </i>
-				<i class="fab fa-linkedin"> </i>
-			</div>
-			<p>
-				If you like the page, follow by smashing one of these buttons above!
-			</p>
+			<p>If you like the page, support me by clicking links above!</p>
 		</footer>
 
 		<script src="app.js" charset="utf-8"></script>
@@ -202,3 +205,21 @@
 	></script>
 </html>
 <!-- background url: https://images.unsplash.com/photo-1592191136579-27d0d2d44e86 -->
+
+//
+<!-- <nav>
+	<div class="logo">
+		<h4>The Nav</h4>
+	</div>
+	<ul class="nav-links">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Work</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+	<div class="burger">
+		<div class="line1"></div>
+		<div class="line2"></div>
+		<div class="line3"></div>
+	</div>
+</nav> -->
