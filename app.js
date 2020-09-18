@@ -16,7 +16,7 @@ $.ajax({
 		const imgUrls = entries.map((entry) => entry.gsx$image.$t);
 
 		imgUrls.forEach((url, index) => {
-			//if ternary = true, append class active to the carousel item, if FALSE it appends empty string (or simply nothing...)
+			//if ternary = true, append class active to the carousel item, if FALSE it appends empty string
 			const innerHtml = `
 		<div class="carousel-item ${index === 0 ? 'active' : ''}" >
 			<img
@@ -33,7 +33,6 @@ $.ajax({
 	.catch((err) => console.log('err', err))
 	.always(() => console.log('...'));
 
-//
 //
 //NAV DROPDOWN
 //

@@ -2,13 +2,13 @@
 
 ## Project Schedule
 
-| Day   | Deliverable                               | Status |
-| ----- | ----------------------------------------- | ------ |
-| Day 1 | Description, Planing & Layout             |        |
-| Day 2 | Core structure & Reactiveness             |        |
-| Day 3 | Touchup, Polishing, Finalizing main parts |        |
-| Day 4 | Post MVP & edits                          |        |
-| Day 5 | Presentation                              |        |
+| Day   | Deliverable                               | Status     |
+| ----- | ----------------------------------------- | ---------- |
+| Day 1 | Description, Planing & Layout             | complete   |
+| Day 2 | Core structure & Reactiveness             | complete   |
+| Day 3 | Touchup, Polishing, Finalizing main parts | complete   |
+| Day 4 | Post MVP & edits                          | incomplete |
+| Day 5 | Presentation                              |            |
 
 ## Incorporation ideas
 
